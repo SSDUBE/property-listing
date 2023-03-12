@@ -1,0 +1,74 @@
+[
+  {
+      "_id" : "602386722cdb39001e18da08",
+      "firstName" : "Beverley",
+      "lastName" : "Carrington-Hall",
+      "email" : "testing+syndicated_beverleyc_realnet.co.za@flowliving.com",
+      "contactNumber" : "+27734656117",
+      "profileImageUrl" : "https://d3bcax9k86ac90.cloudfront.net/uploads/agents/2020/06/9c4eba6a7143058.jpg"
+  },
+  {
+      "_id" : "6023867e2cdb39001e18e1d3",
+      "firstName" : "Johan",
+      "lastName" : "Cronje",
+      "email" : "testing+syndicated_johanc_realnet.co.za@flowliving.com",
+      "contactNumber" : "+27818017909",
+      "profileImageUrl" : "https://d3bcax9k86ac90.cloudfront.net/uploads/agents/2021/10/f6bd3a26ba1a14f.jpg"
+  },
+  {
+      "_id" : "608001de035ebc0011a71c4a",
+      "firstName" : "Karabo",
+      "lastName" : "Mphahlele",
+      "email" : "testing+syndicated_karabo_remaxpa.co.za@flowliving.com",
+      "contactNumber" : "+27726835407",
+      "profileImageUrl" : "https://cdn.remax.co.za/images/agents/14526/agent_image_bf521719-e532-cdb8-a04d-9e23819e789a.jpg"
+  },
+  {
+      "_id" : "60be63f3fd1e7d00113ee960",
+      "firstName" : "Dylan",
+      "lastName" : "Keyser",
+      "email" : "testing+syndicated_dylan.keyser_remaxpa.co.za@flowliving.com",
+      "contactNumber" : "+27838754787",
+      "profileImageUrl" : "https://cdn.remax.co.za/images/agents/14691/agent_image_1df5b711-30ec-18a3-1dcd-a036cfd26e20.jpg"
+  },
+  {
+      "_id" : "6267847c66e2e80039c5873c",
+      "firstName" : "Saaj",
+      "lastName" : "MD",
+      "email" : "testing+syndicated_saajd_realnet.co.za@flowliving.com",
+      "contactNumber" : "+27837852786",
+      "profileImageUrl" : "https://d3bcax9k86ac90.cloudfront.net/uploads/agents/2020/10/7d257fb09b40f8b.jpg"
+  },
+  {
+      "_id" : "6274e1a1e15ffa0012951150",
+      "firstName" : "Lebo",
+      "lastName" : "Tsotsi",
+      "email" : "lebo-test@flowliving.com",
+      "contactNumber" : "+27863558346",
+      "profileImageUrl" : "https://s3-staging.flowliving.com/public/62753522e15ffa001296c654"
+  },
+  {
+      "_id" : "62b318b561f58b10b7ece811",
+      "firstName" : "Francois",
+      "lastName" : "du Toit",
+      "email" : "testing+syndicated_francoisdt_realnet.co.za@flowliving.com",
+      "contactNumber" : "+27609975235",
+      "profileImageUrl" : "https://d3bcax9k86ac90.cloudfront.net/uploads/agents/2022/06/88dc7ea325f76f0.jpg"
+  },
+  {
+      "_id" : "62bee67ca917710266ebdd25",
+      "firstName" : "Desmond",
+      "lastName" : "Alexander",
+      "email" : "testing+syndicated_desmond_remaxpa.co.za@flowliving.com",
+      "contactNumber" : "+27835556217",
+      "profileImageUrl" : "https://cdn.remax.co.za/images/agents/14922/agent_image_401969f6-426b-ba59-d8da-c6b3723475cb.jpg"
+  },
+  {
+      "_id" : "62d166dc8f0fae1c5b843f1b",
+      "firstName" : "Shameer",
+      "lastName" : "Isaacs",
+      "email" : "shameer@claremart.com",
+      "contactNumber" : "081 759 8302",
+      "profileImageUrl" : ""
+  }
+]
