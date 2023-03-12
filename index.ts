@@ -8,6 +8,7 @@ import routes from './src/routes';
 const app = express();
 const port = API.PORT;
 const serviceName = 'Flow';
+const routeName = '/listings';
 
 app.use(cors());
 
@@ -19,7 +20,7 @@ mongoose.connect(API.DB_STRING, { autoIndex: false }).then(
   () => {
     logger.log('Successfully connected to DB');
     app.listen(port, () => {
-      app.use(routes)
+      app.use(routeName, routes)
       logger.log(`${serviceName} listening on port ${port}!`);
     });
   },
