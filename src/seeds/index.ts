@@ -1,10 +1,12 @@
 import mongoose from 'mongoose';
 import { AgentModel } from '../models/agent';
 import { OrganisationModel } from '../models/organisation';
-import { PropertyModel } from '../models/property';
+import { ListingModel } from '../models/listing';
 import { API } from '../utils/globals';
 import Logger from '../utils/logger';
-import properties from './properties.json';
+import listings from './listings.json';
+import agents from './agents.json';
+import organisations from './organisations.json';
 
 (async () => {
   Logger.log('1 Starting seeding of data');
@@ -15,10 +17,10 @@ import properties from './properties.json';
   return mongoose
     .connect(API.DB_STRING, { autoIndex: false })
     .then(() => {
-      Logger.log('2 Create all properties');
-      properties.forEach((item) => {
+      Logger.log('2 Create all listings');
+      listings.forEach((item) => {
         seedProperties.push(
-          PropertyModel.findOneAndUpdate(
+          ListingModel.findOneAndUpdate(
             { _id: item._id },
             { $set: { ...item } },
             { upsert: true }
@@ -28,7 +30,7 @@ import properties from './properties.json';
     })
     .then(() => {
       Logger.log('3 Create all agents');
-      properties.forEach((item) => {
+      agents.forEach((item) => {
         seedAgents.push(
           AgentModel.findOneAndUpdate(
             { _id: item._id },
@@ -40,7 +42,7 @@ import properties from './properties.json';
     })
     .then(() => {
       Logger.log('4 Create all organisations');
-      properties.forEach((item) => {
+      organisations.forEach((item) => {
         seedOrganisations.push(
           OrganisationModel.findOneAndUpdate(
             { _id: item._id },

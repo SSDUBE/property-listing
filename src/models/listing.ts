@@ -8,7 +8,7 @@ interface IUnit {
   price: number;
 }
 
-export interface IProperty {
+export interface IListing {
   _id: mongoose.Types.ObjectId;
   agent: mongoose.Types.ObjectId;
   title: string;
@@ -21,7 +21,7 @@ export interface IProperty {
   images: string[];
 }
 
-const Property = new Schema<IProperty>(
+const Listing = new Schema<IListing>(
   {
     agent: { type: mongoose.Schema.Types.ObjectId, required: true },
     title: { type: String, required: true },
@@ -35,11 +35,11 @@ const Property = new Schema<IProperty>(
   },
   {
     timestamps: true,
-    collection: 'property',
+    collection: 'listing',
   }
 );
 
-export const PropertyModel = mongoose.model<IProperty>(
-  'Property',
-  Property
+export const ListingModel = mongoose.model<IListing>(
+  'Listing',
+  Listing
 );
