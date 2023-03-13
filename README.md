@@ -1,4 +1,4 @@
-This is a simple typed Node project which list properties
+This is a simple typed Node project which list properties and a simple auth using jwt 
 
 To run the project follow the below steps
     - Create a .env file on the root directory
