@@ -14,7 +14,12 @@ const HTTP_CODES = {
   SERVER_ERROR: 500,
 };
 
+const AUTH = {
+  secrete: process.env.AUTH_SECRETE || ''
+}
+
 export {
   API,
-  HTTP_CODES
+  HTTP_CODES,
+  AUTH
 }
