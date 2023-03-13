@@ -1,6 +1,6 @@
-This is a simple typed Node project which list properties and a simple auth using jwt 
+This is a simple typed Node project which lists properties and a simple auth using jwt 
 
-To run the project follow the below steps
+To run the project perfom the steps below
     - Create a .env file on the root directory
     - add the below lines to your .env
         - PORT=10112
