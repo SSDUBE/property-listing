@@ -12,3 +12,6 @@ To run the project perfom the steps below
         - npm install
         - npm start 
     - You should be able to see your server running and you are ready to interact with your end points
+
+Due to time
+    - On the signin you are able to get a token just I have not secured the routes to actually make use of the token validation
